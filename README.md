@@ -1,5 +1,4 @@
-Tester
-======
+# Tester
 
 This package provide a set of tools to help you test your application.
 
