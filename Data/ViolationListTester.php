@@ -34,6 +34,10 @@ class ViolationListTester
      */
     public function code(string $code): static
     {
+        if (!$this->violations) {
+            throw new \LogicException('You must call addViolation() before calling code().');
+        }
+
         $this->violations[\count($this->violations) - 1]['code'] = $code;
 
         return $this;
@@ -44,6 +48,10 @@ class ViolationListTester
      */
     public function invalidValue(mixed $invalidValue): static
     {
+        if (!$this->violations) {
+            throw new \LogicException('You must call addViolation() before calling invalidValue().');
+        }
+
         $this->violations[\count($this->violations) - 1]['invalidValue'] = $invalidValue;
 
         return $this;

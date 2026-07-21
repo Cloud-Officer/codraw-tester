@@ -402,6 +402,10 @@ trait AssertTrait
      */
     public function assertStringNotMatchesFormat(string $format, string $message = ''): self
     {
+        if (!method_exists(Assert::class, 'assertStringNotMatchesFormat')) {
+            Assert::fail('Assert::assertStringNotMatchesFormat() was removed in PHPUnit 12. Use phpunit/phpunit ^11 to keep using this assertion.');
+        }
+
         Assert::assertStringNotMatchesFormat($format, $this->getData(), $message);
 
         return $this;

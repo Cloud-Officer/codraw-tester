@@ -54,8 +54,8 @@ that is normally pass trough the **PHPUnit Assert** methods.
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-'.str_replace('assert', '', $methodName).'
-   :start-after: //example-start: '.$methodName.'
-   :end-before: //example-end: '.$methodName.'
+   :start-after: // example-start: '.$methodName.'
+   :end-before: // example-end: '.$methodName.'
    :dedent: 4
    :prepend: <?php
 ';

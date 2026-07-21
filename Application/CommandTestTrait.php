@@ -250,8 +250,12 @@ trait CommandTestTrait
         $columns = getenv('COLUMNS');
         putenv('COLUMNS=120');
         $options += ['capture_stderr_separately' => true];
-        $commandTester->execute($input, $options);
-        putenv('COLUMNS='.$columns);
+
+        try {
+            $commandTester->execute($input, $options);
+        } finally {
+            putenv(false === $columns ? 'COLUMNS' : 'COLUMNS='.$columns);
+        }
 
         return new DataTester($commandTester);
     }

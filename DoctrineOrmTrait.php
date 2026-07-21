@@ -30,9 +30,15 @@ trait DoctrineOrmTrait
             true
         );
 
+        $dsn = $dsn ?: getenv('DATABASE_URL');
+
+        if (!$dsn) {
+            throw new \RuntimeException('No dsn provided and DATABASE_URL environment variable is not set.');
+        }
+
         $dsnParser = new DsnParser(['mysql' => 'pdo_mysql']);
         $connection = DriverManager::getConnection(
-            $dsnParser->parse($dsn ?: getenv('DATABASE_URL'))
+            $dsnParser->parse($dsn)
         );
 
         $entityManager = new EntityManager($connection, $config);

@@ -16,6 +16,7 @@
         }
     ],
     "require": {
+        "php": "^8.5",
         "ext-simplexml": "*",
         "codraw/core": "^0.39",
         "guzzlehttp/psr7": "^1.8 || ^2.0",
@@ -31,7 +32,10 @@
         "symfony/dependency-injection": "^6.4.0"
     },
     "suggest": {
+        "doctrine/orm": "If you want to use the DoctrineOrmTrait",
+        "nesbot/carbon": "If you want to use the CarbonResetExtension",
         "symfony/cache": "If you want to use the orm setup tool",
+        "symfony/console": "If you want to use the commands or the CommandTestTrait",
         "symfony/dependency-injection": "If you want to test extension/configuration"
     },
     "minimum-stability": "dev",

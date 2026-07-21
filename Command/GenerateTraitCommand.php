@@ -108,11 +108,20 @@ trait AssertTrait
                 $correctedDocComment = implode("\n", $docCommentLines);
             }
 
+            $guard = '';
+            if (!empty($information['removedIn'])) {
+                $guard = "if (!method_exists(Assert::class, '{$methodName}')) {
+            Assert::fail('Assert::{$methodName}() was removed in {$information['removedIn']}.');
+        }
+
+        ";
+            }
+
             $class .= "
     //example-start: {$methodName}
     {$correctedDocComment}
     public function {$methodName}({$parametersString}): self {
-        Assert::{$methodName}({$callParametersString});
+        {$guard}Assert::{$methodName}({$callParametersString});
 
         return \$this;
     }

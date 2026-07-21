@@ -23,10 +23,11 @@ class TestsCoverageCheckCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
-        $inputFile = realpath($input->getArgument('clover-xlm-file-path'));
+        $inputFilePath = $input->getArgument('clover-xlm-file-path');
+        $inputFile = realpath($inputFilePath);
         $percentage = (float) $input->getArgument('coverage');
-        if (!is_file($inputFile)) {
-            throw new \InvalidArgumentException(\sprintf('Invalid input file provided "%s"', $inputFile));
+        if (false === $inputFile || !is_file($inputFile)) {
+            throw new \InvalidArgumentException(\sprintf('Invalid input file provided "%s"', $inputFilePath));
         }
         if (!$percentage) {
             throw new \InvalidArgumentException(\sprintf('Invalid coverage percentage value "%s"', $input->getArgument('coverage')));
@@ -46,10 +47,14 @@ class TestsCoverageCheckCommand extends Command
             $checkedElements += (int) $metric['coveredstatements'];
         }
 
+        if (0 === $totalElements) {
+            throw new \RuntimeException(\sprintf('No statements found in clover file "%s"', $inputFile));
+        }
+
         $coverage = ($checkedElements / $totalElements) * 100;
         if ($coverage < $percentage) {
             $io->error(\sprintf(
-                'Code coverage is %.02f%%, which is below the accepted %d%%',
+                'Code coverage is %.02f%%, which is below the accepted %s%%',
                 $coverage,
                 $percentage
             ));

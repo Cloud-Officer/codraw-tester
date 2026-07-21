@@ -852,6 +852,7 @@
     "assertStringNotMatchesFormat": {
         "validated": false,
         "ignore": false,
+        "removedIn": "PHPUnit 12",
         "dataParameter": "string",
         "parameters": [
             "format",

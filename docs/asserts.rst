@@ -17,8 +17,8 @@ assertContains
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Contains
-   :start-after: //example-start: assertContains
-   :end-before: //example-end: assertContains
+   :start-after: // example-start: assertContains
+   :end-before: // example-end: assertContains
    :dedent: 4
    :prepend: <?php
 
@@ -27,8 +27,8 @@ assertNotContains
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotContains
-   :start-after: //example-start: assertNotContains
-   :end-before: //example-end: assertNotContains
+   :start-after: // example-start: assertNotContains
+   :end-before: // example-end: assertNotContains
    :dedent: 4
    :prepend: <?php
 
@@ -37,8 +37,8 @@ assertContainsOnly
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-ContainsOnly
-   :start-after: //example-start: assertContainsOnly
-   :end-before: //example-end: assertContainsOnly
+   :start-after: // example-start: assertContainsOnly
+   :end-before: // example-end: assertContainsOnly
    :dedent: 4
    :prepend: <?php
 
@@ -47,8 +47,8 @@ assertContainsOnlyInstancesOf
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-ContainsOnlyInstancesOf
-   :start-after: //example-start: assertContainsOnlyInstancesOf
-   :end-before: //example-end: assertContainsOnlyInstancesOf
+   :start-after: // example-start: assertContainsOnlyInstancesOf
+   :end-before: // example-end: assertContainsOnlyInstancesOf
    :dedent: 4
    :prepend: <?php
 
@@ -57,8 +57,8 @@ assertNotContainsOnly
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotContainsOnly
-   :start-after: //example-start: assertNotContainsOnly
-   :end-before: //example-end: assertNotContainsOnly
+   :start-after: // example-start: assertNotContainsOnly
+   :end-before: // example-end: assertNotContainsOnly
    :dedent: 4
    :prepend: <?php
 
@@ -67,8 +67,8 @@ assertCount
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Count
-   :start-after: //example-start: assertCount
-   :end-before: //example-end: assertCount
+   :start-after: // example-start: assertCount
+   :end-before: // example-end: assertCount
    :dedent: 4
    :prepend: <?php
 
@@ -77,8 +77,8 @@ assertNotCount
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotCount
-   :start-after: //example-start: assertNotCount
-   :end-before: //example-end: assertNotCount
+   :start-after: // example-start: assertNotCount
+   :end-before: // example-end: assertNotCount
    :dedent: 4
    :prepend: <?php
 
@@ -87,8 +87,8 @@ assertEquals
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Equals
-   :start-after: //example-start: assertEquals
-   :end-before: //example-end: assertEquals
+   :start-after: // example-start: assertEquals
+   :end-before: // example-end: assertEquals
    :dedent: 4
    :prepend: <?php
 
@@ -97,8 +97,8 @@ assertNotEquals
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotEquals
-   :start-after: //example-start: assertNotEquals
-   :end-before: //example-end: assertNotEquals
+   :start-after: // example-start: assertNotEquals
+   :end-before: // example-end: assertNotEquals
    :dedent: 4
    :prepend: <?php
 
@@ -107,8 +107,8 @@ assertEmpty
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Empty
-   :start-after: //example-start: assertEmpty
-   :end-before: //example-end: assertEmpty
+   :start-after: // example-start: assertEmpty
+   :end-before: // example-end: assertEmpty
    :dedent: 4
    :prepend: <?php
 
@@ -117,8 +117,8 @@ assertNotEmpty
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotEmpty
-   :start-after: //example-start: assertNotEmpty
-   :end-before: //example-end: assertNotEmpty
+   :start-after: // example-start: assertNotEmpty
+   :end-before: // example-end: assertNotEmpty
    :dedent: 4
    :prepend: <?php
 
@@ -127,8 +127,8 @@ assertGreaterThan
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-GreaterThan
-   :start-after: //example-start: assertGreaterThan
-   :end-before: //example-end: assertGreaterThan
+   :start-after: // example-start: assertGreaterThan
+   :end-before: // example-end: assertGreaterThan
    :dedent: 4
    :prepend: <?php
 
@@ -137,8 +137,8 @@ assertGreaterThanOrEqual
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-GreaterThanOrEqual
-   :start-after: //example-start: assertGreaterThanOrEqual
-   :end-before: //example-end: assertGreaterThanOrEqual
+   :start-after: // example-start: assertGreaterThanOrEqual
+   :end-before: // example-end: assertGreaterThanOrEqual
    :dedent: 4
    :prepend: <?php
 
@@ -147,8 +147,8 @@ assertLessThan
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-LessThan
-   :start-after: //example-start: assertLessThan
-   :end-before: //example-end: assertLessThan
+   :start-after: // example-start: assertLessThan
+   :end-before: // example-end: assertLessThan
    :dedent: 4
    :prepend: <?php
 
@@ -157,8 +157,8 @@ assertLessThanOrEqual
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-LessThanOrEqual
-   :start-after: //example-start: assertLessThanOrEqual
-   :end-before: //example-end: assertLessThanOrEqual
+   :start-after: // example-start: assertLessThanOrEqual
+   :end-before: // example-end: assertLessThanOrEqual
    :dedent: 4
    :prepend: <?php
 
@@ -167,8 +167,8 @@ assertTrue
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-True
-   :start-after: //example-start: assertTrue
-   :end-before: //example-end: assertTrue
+   :start-after: // example-start: assertTrue
+   :end-before: // example-end: assertTrue
    :dedent: 4
    :prepend: <?php
 
@@ -177,8 +177,8 @@ assertNotTrue
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotTrue
-   :start-after: //example-start: assertNotTrue
-   :end-before: //example-end: assertNotTrue
+   :start-after: // example-start: assertNotTrue
+   :end-before: // example-end: assertNotTrue
    :dedent: 4
    :prepend: <?php
 
@@ -187,8 +187,8 @@ assertFalse
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-False
-   :start-after: //example-start: assertFalse
-   :end-before: //example-end: assertFalse
+   :start-after: // example-start: assertFalse
+   :end-before: // example-end: assertFalse
    :dedent: 4
    :prepend: <?php
 
@@ -197,8 +197,8 @@ assertNotFalse
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotFalse
-   :start-after: //example-start: assertNotFalse
-   :end-before: //example-end: assertNotFalse
+   :start-after: // example-start: assertNotFalse
+   :end-before: // example-end: assertNotFalse
    :dedent: 4
    :prepend: <?php
 
@@ -207,8 +207,8 @@ assertNull
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Null
-   :start-after: //example-start: assertNull
-   :end-before: //example-end: assertNull
+   :start-after: // example-start: assertNull
+   :end-before: // example-end: assertNull
    :dedent: 4
    :prepend: <?php
 
@@ -217,8 +217,8 @@ assertNotNull
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotNull
-   :start-after: //example-start: assertNotNull
-   :end-before: //example-end: assertNotNull
+   :start-after: // example-start: assertNotNull
+   :end-before: // example-end: assertNotNull
    :dedent: 4
    :prepend: <?php
 
@@ -227,8 +227,8 @@ assertFinite
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Finite
-   :start-after: //example-start: assertFinite
-   :end-before: //example-end: assertFinite
+   :start-after: // example-start: assertFinite
+   :end-before: // example-end: assertFinite
    :dedent: 4
    :prepend: <?php
 
@@ -237,8 +237,8 @@ assertInfinite
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Infinite
-   :start-after: //example-start: assertInfinite
-   :end-before: //example-end: assertInfinite
+   :start-after: // example-start: assertInfinite
+   :end-before: // example-end: assertInfinite
    :dedent: 4
    :prepend: <?php
 
@@ -247,8 +247,8 @@ assertNan
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Nan
-   :start-after: //example-start: assertNan
-   :end-before: //example-end: assertNan
+   :start-after: // example-start: assertNan
+   :end-before: // example-end: assertNan
    :dedent: 4
    :prepend: <?php
 
@@ -257,8 +257,8 @@ assertSame
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Same
-   :start-after: //example-start: assertSame
-   :end-before: //example-end: assertSame
+   :start-after: // example-start: assertSame
+   :end-before: // example-end: assertSame
    :dedent: 4
    :prepend: <?php
 
@@ -267,8 +267,8 @@ assertNotSame
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotSame
-   :start-after: //example-start: assertNotSame
-   :end-before: //example-end: assertNotSame
+   :start-after: // example-start: assertNotSame
+   :end-before: // example-end: assertNotSame
    :dedent: 4
    :prepend: <?php
 
@@ -277,8 +277,8 @@ assertInstanceOf
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-InstanceOf
-   :start-after: //example-start: assertInstanceOf
-   :end-before: //example-end: assertInstanceOf
+   :start-after: // example-start: assertInstanceOf
+   :end-before: // example-end: assertInstanceOf
    :dedent: 4
    :prepend: <?php
 
@@ -287,8 +287,8 @@ assertNotInstanceOf
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotInstanceOf
-   :start-after: //example-start: assertNotInstanceOf
-   :end-before: //example-end: assertNotInstanceOf
+   :start-after: // example-start: assertNotInstanceOf
+   :end-before: // example-end: assertNotInstanceOf
    :dedent: 4
    :prepend: <?php
 
@@ -297,8 +297,8 @@ assertSameSize
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-SameSize
-   :start-after: //example-start: assertSameSize
-   :end-before: //example-end: assertSameSize
+   :start-after: // example-start: assertSameSize
+   :end-before: // example-end: assertSameSize
    :dedent: 4
    :prepend: <?php
 
@@ -307,8 +307,8 @@ assertNotSameSize
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotSameSize
-   :start-after: //example-start: assertNotSameSize
-   :end-before: //example-end: assertNotSameSize
+   :start-after: // example-start: assertNotSameSize
+   :end-before: // example-end: assertNotSameSize
    :dedent: 4
    :prepend: <?php
 
@@ -317,8 +317,8 @@ assertStringMatchesFormat
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringMatchesFormat
-   :start-after: //example-start: assertStringMatchesFormat
-   :end-before: //example-end: assertStringMatchesFormat
+   :start-after: // example-start: assertStringMatchesFormat
+   :end-before: // example-end: assertStringMatchesFormat
    :dedent: 4
    :prepend: <?php
 
@@ -327,8 +327,8 @@ assertStringNotMatchesFormat
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringNotMatchesFormat
-   :start-after: //example-start: assertStringNotMatchesFormat
-   :end-before: //example-end: assertStringNotMatchesFormat
+   :start-after: // example-start: assertStringNotMatchesFormat
+   :end-before: // example-end: assertStringNotMatchesFormat
    :dedent: 4
    :prepend: <?php
 
@@ -337,8 +337,8 @@ assertStringStartsWith
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringStartsWith
-   :start-after: //example-start: assertStringStartsWith
-   :end-before: //example-end: assertStringStartsWith
+   :start-after: // example-start: assertStringStartsWith
+   :end-before: // example-end: assertStringStartsWith
    :dedent: 4
    :prepend: <?php
 
@@ -347,8 +347,8 @@ assertStringStartsNotWith
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringStartsNotWith
-   :start-after: //example-start: assertStringStartsNotWith
-   :end-before: //example-end: assertStringStartsNotWith
+   :start-after: // example-start: assertStringStartsNotWith
+   :end-before: // example-end: assertStringStartsNotWith
    :dedent: 4
    :prepend: <?php
 
@@ -357,8 +357,8 @@ assertStringEndsWith
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringEndsWith
-   :start-after: //example-start: assertStringEndsWith
-   :end-before: //example-end: assertStringEndsWith
+   :start-after: // example-start: assertStringEndsWith
+   :end-before: // example-end: assertStringEndsWith
    :dedent: 4
    :prepend: <?php
 
@@ -367,8 +367,8 @@ assertStringEndsNotWith
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringEndsNotWith
-   :start-after: //example-start: assertStringEndsNotWith
-   :end-before: //example-end: assertStringEndsNotWith
+   :start-after: // example-start: assertStringEndsNotWith
+   :end-before: // example-end: assertStringEndsNotWith
    :dedent: 4
    :prepend: <?php
 
@@ -377,8 +377,8 @@ assertJson
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-Json
-   :start-after: //example-start: assertJson
-   :end-before: //example-end: assertJson
+   :start-after: // example-start: assertJson
+   :end-before: // example-end: assertJson
    :dedent: 4
    :prepend: <?php
 
@@ -387,8 +387,8 @@ assertJsonStringEqualsJsonString
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-JsonStringEqualsJsonString
-   :start-after: //example-start: assertJsonStringEqualsJsonString
-   :end-before: //example-end: assertJsonStringEqualsJsonString
+   :start-after: // example-start: assertJsonStringEqualsJsonString
+   :end-before: // example-end: assertJsonStringEqualsJsonString
    :dedent: 4
    :prepend: <?php
 
@@ -397,8 +397,8 @@ assertJsonStringNotEqualsJsonString
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-JsonStringNotEqualsJsonString
-   :start-after: //example-start: assertJsonStringNotEqualsJsonString
-   :end-before: //example-end: assertJsonStringNotEqualsJsonString
+   :start-after: // example-start: assertJsonStringNotEqualsJsonString
+   :end-before: // example-end: assertJsonStringNotEqualsJsonString
    :dedent: 4
    :prepend: <?php
 
@@ -407,8 +407,8 @@ assertContainsEquals
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-ContainsEquals
-   :start-after: //example-start: assertContainsEquals
-   :end-before: //example-end: assertContainsEquals
+   :start-after: // example-start: assertContainsEquals
+   :end-before: // example-end: assertContainsEquals
    :dedent: 4
    :prepend: <?php
 
@@ -417,8 +417,8 @@ assertNotContainsEquals
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotContainsEquals
-   :start-after: //example-start: assertNotContainsEquals
-   :end-before: //example-end: assertNotContainsEquals
+   :start-after: // example-start: assertNotContainsEquals
+   :end-before: // example-end: assertNotContainsEquals
    :dedent: 4
    :prepend: <?php
 
@@ -427,8 +427,8 @@ assertEqualsCanonicalizing
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-EqualsCanonicalizing
-   :start-after: //example-start: assertEqualsCanonicalizing
-   :end-before: //example-end: assertEqualsCanonicalizing
+   :start-after: // example-start: assertEqualsCanonicalizing
+   :end-before: // example-end: assertEqualsCanonicalizing
    :dedent: 4
    :prepend: <?php
 
@@ -437,8 +437,8 @@ assertEqualsIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-EqualsIgnoringCase
-   :start-after: //example-start: assertEqualsIgnoringCase
-   :end-before: //example-end: assertEqualsIgnoringCase
+   :start-after: // example-start: assertEqualsIgnoringCase
+   :end-before: // example-end: assertEqualsIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -447,8 +447,8 @@ assertEqualsWithDelta
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-EqualsWithDelta
-   :start-after: //example-start: assertEqualsWithDelta
-   :end-before: //example-end: assertEqualsWithDelta
+   :start-after: // example-start: assertEqualsWithDelta
+   :end-before: // example-end: assertEqualsWithDelta
    :dedent: 4
    :prepend: <?php
 
@@ -457,8 +457,8 @@ assertNotEqualsCanonicalizing
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotEqualsCanonicalizing
-   :start-after: //example-start: assertNotEqualsCanonicalizing
-   :end-before: //example-end: assertNotEqualsCanonicalizing
+   :start-after: // example-start: assertNotEqualsCanonicalizing
+   :end-before: // example-end: assertNotEqualsCanonicalizing
    :dedent: 4
    :prepend: <?php
 
@@ -467,8 +467,8 @@ assertNotEqualsIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotEqualsIgnoringCase
-   :start-after: //example-start: assertNotEqualsIgnoringCase
-   :end-before: //example-end: assertNotEqualsIgnoringCase
+   :start-after: // example-start: assertNotEqualsIgnoringCase
+   :end-before: // example-end: assertNotEqualsIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -477,8 +477,8 @@ assertNotEqualsWithDelta
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-NotEqualsWithDelta
-   :start-after: //example-start: assertNotEqualsWithDelta
-   :end-before: //example-end: assertNotEqualsWithDelta
+   :start-after: // example-start: assertNotEqualsWithDelta
+   :end-before: // example-end: assertNotEqualsWithDelta
    :dedent: 4
    :prepend: <?php
 
@@ -487,8 +487,8 @@ assertIsArray
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsArray
-   :start-after: //example-start: assertIsArray
-   :end-before: //example-end: assertIsArray
+   :start-after: // example-start: assertIsArray
+   :end-before: // example-end: assertIsArray
    :dedent: 4
    :prepend: <?php
 
@@ -497,8 +497,8 @@ assertIsBool
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsBool
-   :start-after: //example-start: assertIsBool
-   :end-before: //example-end: assertIsBool
+   :start-after: // example-start: assertIsBool
+   :end-before: // example-end: assertIsBool
    :dedent: 4
    :prepend: <?php
 
@@ -507,8 +507,8 @@ assertIsFloat
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsFloat
-   :start-after: //example-start: assertIsFloat
-   :end-before: //example-end: assertIsFloat
+   :start-after: // example-start: assertIsFloat
+   :end-before: // example-end: assertIsFloat
    :dedent: 4
    :prepend: <?php
 
@@ -517,8 +517,8 @@ assertIsInt
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsInt
-   :start-after: //example-start: assertIsInt
-   :end-before: //example-end: assertIsInt
+   :start-after: // example-start: assertIsInt
+   :end-before: // example-end: assertIsInt
    :dedent: 4
    :prepend: <?php
 
@@ -527,8 +527,8 @@ assertIsNumeric
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNumeric
-   :start-after: //example-start: assertIsNumeric
-   :end-before: //example-end: assertIsNumeric
+   :start-after: // example-start: assertIsNumeric
+   :end-before: // example-end: assertIsNumeric
    :dedent: 4
    :prepend: <?php
 
@@ -537,8 +537,8 @@ assertIsObject
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsObject
-   :start-after: //example-start: assertIsObject
-   :end-before: //example-end: assertIsObject
+   :start-after: // example-start: assertIsObject
+   :end-before: // example-end: assertIsObject
    :dedent: 4
    :prepend: <?php
 
@@ -547,8 +547,8 @@ assertIsResource
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsResource
-   :start-after: //example-start: assertIsResource
-   :end-before: //example-end: assertIsResource
+   :start-after: // example-start: assertIsResource
+   :end-before: // example-end: assertIsResource
    :dedent: 4
    :prepend: <?php
 
@@ -557,8 +557,8 @@ assertIsString
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsString
-   :start-after: //example-start: assertIsString
-   :end-before: //example-end: assertIsString
+   :start-after: // example-start: assertIsString
+   :end-before: // example-end: assertIsString
    :dedent: 4
    :prepend: <?php
 
@@ -567,8 +567,8 @@ assertIsScalar
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsScalar
-   :start-after: //example-start: assertIsScalar
-   :end-before: //example-end: assertIsScalar
+   :start-after: // example-start: assertIsScalar
+   :end-before: // example-end: assertIsScalar
    :dedent: 4
    :prepend: <?php
 
@@ -577,8 +577,8 @@ assertIsCallable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsCallable
-   :start-after: //example-start: assertIsCallable
-   :end-before: //example-end: assertIsCallable
+   :start-after: // example-start: assertIsCallable
+   :end-before: // example-end: assertIsCallable
    :dedent: 4
    :prepend: <?php
 
@@ -587,8 +587,8 @@ assertIsIterable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsIterable
-   :start-after: //example-start: assertIsIterable
-   :end-before: //example-end: assertIsIterable
+   :start-after: // example-start: assertIsIterable
+   :end-before: // example-end: assertIsIterable
    :dedent: 4
    :prepend: <?php
 
@@ -597,8 +597,8 @@ assertIsNotArray
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotArray
-   :start-after: //example-start: assertIsNotArray
-   :end-before: //example-end: assertIsNotArray
+   :start-after: // example-start: assertIsNotArray
+   :end-before: // example-end: assertIsNotArray
    :dedent: 4
    :prepend: <?php
 
@@ -607,8 +607,8 @@ assertIsNotBool
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotBool
-   :start-after: //example-start: assertIsNotBool
-   :end-before: //example-end: assertIsNotBool
+   :start-after: // example-start: assertIsNotBool
+   :end-before: // example-end: assertIsNotBool
    :dedent: 4
    :prepend: <?php
 
@@ -617,8 +617,8 @@ assertIsNotFloat
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotFloat
-   :start-after: //example-start: assertIsNotFloat
-   :end-before: //example-end: assertIsNotFloat
+   :start-after: // example-start: assertIsNotFloat
+   :end-before: // example-end: assertIsNotFloat
    :dedent: 4
    :prepend: <?php
 
@@ -627,8 +627,8 @@ assertIsNotInt
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotInt
-   :start-after: //example-start: assertIsNotInt
-   :end-before: //example-end: assertIsNotInt
+   :start-after: // example-start: assertIsNotInt
+   :end-before: // example-end: assertIsNotInt
    :dedent: 4
    :prepend: <?php
 
@@ -637,8 +637,8 @@ assertIsNotNumeric
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotNumeric
-   :start-after: //example-start: assertIsNotNumeric
-   :end-before: //example-end: assertIsNotNumeric
+   :start-after: // example-start: assertIsNotNumeric
+   :end-before: // example-end: assertIsNotNumeric
    :dedent: 4
    :prepend: <?php
 
@@ -647,8 +647,8 @@ assertIsNotObject
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotObject
-   :start-after: //example-start: assertIsNotObject
-   :end-before: //example-end: assertIsNotObject
+   :start-after: // example-start: assertIsNotObject
+   :end-before: // example-end: assertIsNotObject
    :dedent: 4
    :prepend: <?php
 
@@ -657,8 +657,8 @@ assertIsNotResource
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotResource
-   :start-after: //example-start: assertIsNotResource
-   :end-before: //example-end: assertIsNotResource
+   :start-after: // example-start: assertIsNotResource
+   :end-before: // example-end: assertIsNotResource
    :dedent: 4
    :prepend: <?php
 
@@ -667,8 +667,8 @@ assertIsNotString
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotString
-   :start-after: //example-start: assertIsNotString
-   :end-before: //example-end: assertIsNotString
+   :start-after: // example-start: assertIsNotString
+   :end-before: // example-end: assertIsNotString
    :dedent: 4
    :prepend: <?php
 
@@ -677,8 +677,8 @@ assertIsNotScalar
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotScalar
-   :start-after: //example-start: assertIsNotScalar
-   :end-before: //example-end: assertIsNotScalar
+   :start-after: // example-start: assertIsNotScalar
+   :end-before: // example-end: assertIsNotScalar
    :dedent: 4
    :prepend: <?php
 
@@ -687,8 +687,8 @@ assertIsNotCallable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotCallable
-   :start-after: //example-start: assertIsNotCallable
-   :end-before: //example-end: assertIsNotCallable
+   :start-after: // example-start: assertIsNotCallable
+   :end-before: // example-end: assertIsNotCallable
    :dedent: 4
    :prepend: <?php
 
@@ -697,8 +697,8 @@ assertIsNotIterable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotIterable
-   :start-after: //example-start: assertIsNotIterable
-   :end-before: //example-end: assertIsNotIterable
+   :start-after: // example-start: assertIsNotIterable
+   :end-before: // example-end: assertIsNotIterable
    :dedent: 4
    :prepend: <?php
 
@@ -707,8 +707,8 @@ assertStringContainsString
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringContainsString
-   :start-after: //example-start: assertStringContainsString
-   :end-before: //example-end: assertStringContainsString
+   :start-after: // example-start: assertStringContainsString
+   :end-before: // example-end: assertStringContainsString
    :dedent: 4
    :prepend: <?php
 
@@ -717,8 +717,8 @@ assertStringContainsStringIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringContainsStringIgnoringCase
-   :start-after: //example-start: assertStringContainsStringIgnoringCase
-   :end-before: //example-end: assertStringContainsStringIgnoringCase
+   :start-after: // example-start: assertStringContainsStringIgnoringCase
+   :end-before: // example-end: assertStringContainsStringIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -727,8 +727,8 @@ assertStringNotContainsString
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringNotContainsString
-   :start-after: //example-start: assertStringNotContainsString
-   :end-before: //example-end: assertStringNotContainsString
+   :start-after: // example-start: assertStringNotContainsString
+   :end-before: // example-end: assertStringNotContainsString
    :dedent: 4
    :prepend: <?php
 
@@ -737,8 +737,8 @@ assertStringNotContainsStringIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringNotContainsStringIgnoringCase
-   :start-after: //example-start: assertStringNotContainsStringIgnoringCase
-   :end-before: //example-end: assertStringNotContainsStringIgnoringCase
+   :start-after: // example-start: assertStringNotContainsStringIgnoringCase
+   :end-before: // example-end: assertStringNotContainsStringIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -747,8 +747,8 @@ assertObjectEquals
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-ObjectEquals
-   :start-after: //example-start: assertObjectEquals
-   :end-before: //example-end: assertObjectEquals
+   :start-after: // example-start: assertObjectEquals
+   :end-before: // example-end: assertObjectEquals
    :dedent: 4
    :prepend: <?php
 
@@ -757,8 +757,8 @@ assertFileEqualsCanonicalizing
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-FileEqualsCanonicalizing
-   :start-after: //example-start: assertFileEqualsCanonicalizing
-   :end-before: //example-end: assertFileEqualsCanonicalizing
+   :start-after: // example-start: assertFileEqualsCanonicalizing
+   :end-before: // example-end: assertFileEqualsCanonicalizing
    :dedent: 4
    :prepend: <?php
 
@@ -767,8 +767,8 @@ assertFileEqualsIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-FileEqualsIgnoringCase
-   :start-after: //example-start: assertFileEqualsIgnoringCase
-   :end-before: //example-end: assertFileEqualsIgnoringCase
+   :start-after: // example-start: assertFileEqualsIgnoringCase
+   :end-before: // example-end: assertFileEqualsIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -777,8 +777,8 @@ assertFileNotEqualsCanonicalizing
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-FileNotEqualsCanonicalizing
-   :start-after: //example-start: assertFileNotEqualsCanonicalizing
-   :end-before: //example-end: assertFileNotEqualsCanonicalizing
+   :start-after: // example-start: assertFileNotEqualsCanonicalizing
+   :end-before: // example-end: assertFileNotEqualsCanonicalizing
    :dedent: 4
    :prepend: <?php
 
@@ -787,8 +787,8 @@ assertFileNotEqualsIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-FileNotEqualsIgnoringCase
-   :start-after: //example-start: assertFileNotEqualsIgnoringCase
-   :end-before: //example-end: assertFileNotEqualsIgnoringCase
+   :start-after: // example-start: assertFileNotEqualsIgnoringCase
+   :end-before: // example-end: assertFileNotEqualsIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -797,8 +797,8 @@ assertStringEqualsFileCanonicalizing
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringEqualsFileCanonicalizing
-   :start-after: //example-start: assertStringEqualsFileCanonicalizing
-   :end-before: //example-end: assertStringEqualsFileCanonicalizing
+   :start-after: // example-start: assertStringEqualsFileCanonicalizing
+   :end-before: // example-end: assertStringEqualsFileCanonicalizing
    :dedent: 4
    :prepend: <?php
 
@@ -807,8 +807,8 @@ assertStringEqualsFileIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringEqualsFileIgnoringCase
-   :start-after: //example-start: assertStringEqualsFileIgnoringCase
-   :end-before: //example-end: assertStringEqualsFileIgnoringCase
+   :start-after: // example-start: assertStringEqualsFileIgnoringCase
+   :end-before: // example-end: assertStringEqualsFileIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -817,8 +817,8 @@ assertStringNotEqualsFileCanonicalizing
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringNotEqualsFileCanonicalizing
-   :start-after: //example-start: assertStringNotEqualsFileCanonicalizing
-   :end-before: //example-end: assertStringNotEqualsFileCanonicalizing
+   :start-after: // example-start: assertStringNotEqualsFileCanonicalizing
+   :end-before: // example-end: assertStringNotEqualsFileCanonicalizing
    :dedent: 4
    :prepend: <?php
 
@@ -827,8 +827,8 @@ assertStringNotEqualsFileIgnoringCase
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-StringNotEqualsFileIgnoringCase
-   :start-after: //example-start: assertStringNotEqualsFileIgnoringCase
-   :end-before: //example-end: assertStringNotEqualsFileIgnoringCase
+   :start-after: // example-start: assertStringNotEqualsFileIgnoringCase
+   :end-before: // example-end: assertStringNotEqualsFileIgnoringCase
    :dedent: 4
    :prepend: <?php
 
@@ -837,8 +837,8 @@ assertIsNotReadable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotReadable
-   :start-after: //example-start: assertIsNotReadable
-   :end-before: //example-end: assertIsNotReadable
+   :start-after: // example-start: assertIsNotReadable
+   :end-before: // example-end: assertIsNotReadable
    :dedent: 4
    :prepend: <?php
 
@@ -847,8 +847,8 @@ assertIsNotWritable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotWritable
-   :start-after: //example-start: assertIsNotWritable
-   :end-before: //example-end: assertIsNotWritable
+   :start-after: // example-start: assertIsNotWritable
+   :end-before: // example-end: assertIsNotWritable
    :dedent: 4
    :prepend: <?php
 
@@ -857,8 +857,8 @@ assertDirectoryDoesNotExist
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-DirectoryDoesNotExist
-   :start-after: //example-start: assertDirectoryDoesNotExist
-   :end-before: //example-end: assertDirectoryDoesNotExist
+   :start-after: // example-start: assertDirectoryDoesNotExist
+   :end-before: // example-end: assertDirectoryDoesNotExist
    :dedent: 4
    :prepend: <?php
 
@@ -867,8 +867,8 @@ assertDirectoryIsNotReadable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-DirectoryIsNotReadable
-   :start-after: //example-start: assertDirectoryIsNotReadable
-   :end-before: //example-end: assertDirectoryIsNotReadable
+   :start-after: // example-start: assertDirectoryIsNotReadable
+   :end-before: // example-end: assertDirectoryIsNotReadable
    :dedent: 4
    :prepend: <?php
 
@@ -877,8 +877,8 @@ assertDirectoryIsNotWritable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-DirectoryIsNotWritable
-   :start-after: //example-start: assertDirectoryIsNotWritable
-   :end-before: //example-end: assertDirectoryIsNotWritable
+   :start-after: // example-start: assertDirectoryIsNotWritable
+   :end-before: // example-end: assertDirectoryIsNotWritable
    :dedent: 4
    :prepend: <?php
 
@@ -887,8 +887,8 @@ assertFileDoesNotExist
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-FileDoesNotExist
-   :start-after: //example-start: assertFileDoesNotExist
-   :end-before: //example-end: assertFileDoesNotExist
+   :start-after: // example-start: assertFileDoesNotExist
+   :end-before: // example-end: assertFileDoesNotExist
    :dedent: 4
    :prepend: <?php
 
@@ -897,8 +897,8 @@ assertFileIsNotReadable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-FileIsNotReadable
-   :start-after: //example-start: assertFileIsNotReadable
-   :end-before: //example-end: assertFileIsNotReadable
+   :start-after: // example-start: assertFileIsNotReadable
+   :end-before: // example-end: assertFileIsNotReadable
    :dedent: 4
    :prepend: <?php
 
@@ -907,8 +907,8 @@ assertFileIsNotWritable
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-FileIsNotWritable
-   :start-after: //example-start: assertFileIsNotWritable
-   :end-before: //example-end: assertFileIsNotWritable
+   :start-after: // example-start: assertFileIsNotWritable
+   :end-before: // example-end: assertFileIsNotWritable
    :dedent: 4
    :prepend: <?php
 
@@ -917,8 +917,8 @@ assertIsClosedResource
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsClosedResource
-   :start-after: //example-start: assertIsClosedResource
-   :end-before: //example-end: assertIsClosedResource
+   :start-after: // example-start: assertIsClosedResource
+   :end-before: // example-end: assertIsClosedResource
    :dedent: 4
    :prepend: <?php
 
@@ -927,8 +927,8 @@ assertIsNotClosedResource
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-IsNotClosedResource
-   :start-after: //example-start: assertIsNotClosedResource
-   :end-before: //example-end: assertIsNotClosedResource
+   :start-after: // example-start: assertIsNotClosedResource
+   :end-before: // example-end: assertIsNotClosedResource
    :dedent: 4
    :prepend: <?php
 
@@ -937,8 +937,8 @@ assertMatchesRegularExpression
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-MatchesRegularExpression
-   :start-after: //example-start: assertMatchesRegularExpression
-   :end-before: //example-end: assertMatchesRegularExpression
+   :start-after: // example-start: assertMatchesRegularExpression
+   :end-before: // example-end: assertMatchesRegularExpression
    :dedent: 4
    :prepend: <?php
 
@@ -947,7 +947,7 @@ assertDoesNotMatchRegularExpression
 
 .. literalinclude:: ../AssertTrait.php
    :name: assert-DoesNotMatchRegularExpression
-   :start-after: //example-start: assertDoesNotMatchRegularExpression
-   :end-before: //example-end: assertDoesNotMatchRegularExpression
+   :start-after: // example-start: assertDoesNotMatchRegularExpression
+   :end-before: // example-end: assertDoesNotMatchRegularExpression
    :dedent: 4
    :prepend: <?php
