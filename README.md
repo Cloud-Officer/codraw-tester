@@ -122,7 +122,7 @@ class MyTest extends TestCase implements AutowiredInterface
 ```
 
 > This might seem a bit useless, but in a framework context using service it will more sense.
-> The `AutowireService` from [draw/tester-bundle](https://github.com/mpoiriert/tester-bundle) is a good example of this in Symfony.
+> The `AutowireService` from [codraw/tester-bundle](https://github.com/mpoiriert/tester-bundle) is a good example of this in Symfony.
 
 Since the auto wiring is done in the `setUp` hook of phpunit extension you cannot use them in the setup method of you test.
 If you need to access those property in your `setUp` method, you can use the `AutowiredCompletionAwareInterface` instead.
